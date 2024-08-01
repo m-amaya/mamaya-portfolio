@@ -1,0 +1,15 @@
+.button {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+  padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+  border-radius: var(--mantine-radius-md);
+  font-weight: 500;
+
+  @mixin hover {
+    color: light-dark(
+      var(--mantine-color-lightBlue-7),
+      var(--mantine-color-lightBlue-5)
+    );
+  }
+}

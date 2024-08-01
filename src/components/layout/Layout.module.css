@@ -1,0 +1,6 @@
+.header {
+  --app-shell-border-color: light-dark(
+    var(--mantine-color-lightBlue-3),
+    var(--mantine-color-lightBlue-9)
+  );
+}
