@@ -2,6 +2,7 @@ import { AppShell, Button, Flex, Image, Stack, Text } from "@mantine/core";
 import { Highlight } from "@src/components/highlight";
 import Helmet from "react-helmet";
 import { LuArrowUpRight } from "react-icons/lu";
+import { NavLink } from "react-router-dom";
 import classes from "./Home.module.css";
 
 export function HomePage() {
@@ -34,12 +35,14 @@ export function HomePage() {
               <Highlight>portfolio</Highlight> to catch a glimpse of my work.
             </Text>
             <div>
-              <Button
-                color="hotPink.4"
-                rightSection={<LuArrowUpRight size={18} />}
-              >
-                View Portfolio
-              </Button>
+              <NavLink to='/portfolio'>
+                <Button
+                  color="hotPink.2"
+                  rightSection={<LuArrowUpRight size={18} />}
+                >
+                  View Portfolio
+                </Button>
+              </NavLink>
             </div>
           </Stack>
         </Flex>

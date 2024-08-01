@@ -27,9 +27,9 @@ export function Layout() {
             <Logo />
             <Group ml="xl" visibleFrom="sm">
               <Group gap={0}>
-                <NavButton>Portfolio</NavButton>
-                <NavButton>Resume</NavButton>
-                <NavButton>
+                <NavButton to="/portfolio">Portfolio</NavButton>
+                <NavButton to="/resume">Resume</NavButton>
+                <NavButton to="https://github.com/m-amaya" target='_blank'>
                   GitHub <LuExternalLink />
                 </NavButton>
               </Group>
@@ -42,9 +42,10 @@ export function Layout() {
         <Group justify="flex-end" px="md">
           <ThemeSwitch />
         </Group>
-        <NavButton>Portfolio</NavButton>
-        <NavButton>Resume</NavButton>
-        <NavButton>
+        <NavButton to="/">Home</NavButton>
+        <NavButton to="/portfolio">Portfolio</NavButton>
+        <NavButton to="/resume">Resume</NavButton>
+        <NavButton to="https://github.com/m-amaya" target='_blank'>
           GitHub <LuExternalLink />
         </NavButton>
       </AppShell.Navbar>

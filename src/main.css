@@ -1,0 +1,6 @@
+a.active {
+  color: light-dark(
+    var(--mantine-color-lightBlue-7),
+    var(--mantine-color-lightBlue-5)
+  );
+}

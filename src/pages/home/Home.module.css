@@ -1,9 +1,4 @@
 .main {
-  /* background: linear-gradient(
-    90deg,
-    var(--mantine-color-lightBlue-6),
-    var(--mantine-color-hotPink-4)
-  ); */
   display: flex;
   flex-direction: column;
   padding: 60px 0 0 0;

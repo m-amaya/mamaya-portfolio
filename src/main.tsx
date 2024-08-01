@@ -5,6 +5,7 @@ import "@mantine/core/styles.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
+import './main.css';
 import { router } from "./tokens/router.tsx";
 import { resolver, theme } from "./tokens/theme.ts";
 
@@ -13,7 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <MantineProvider
       theme={theme}
       cssVariablesResolver={resolver}
-      defaultColorScheme="dark"
+      defaultColorScheme="light"
     >
       <RouterProvider router={router} />
     </MantineProvider>
