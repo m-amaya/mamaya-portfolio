@@ -10,7 +10,11 @@ import { resolver, theme } from "./tokens/theme.ts";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <MantineProvider theme={theme} cssVariablesResolver={resolver} defaultColorScheme="dark">
+    <MantineProvider
+      theme={theme}
+      cssVariablesResolver={resolver}
+      defaultColorScheme="dark"
+    >
       <RouterProvider router={router} />
     </MantineProvider>
   </React.StrictMode>

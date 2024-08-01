@@ -12,9 +12,7 @@ export function Title() {
       >
         m.amaya
       </Text>
-      <Text>
-        Senior UI/X Engineer
-      </Text>
+      <Text>Senior UI/X Engineer</Text>
     </Stack>
   );
 }

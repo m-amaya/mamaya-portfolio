@@ -5,7 +5,7 @@ import { NavButton } from "@src/components/navButton";
 import { ThemeSwitch } from "@src/components/themeSwitch";
 import { LuExternalLink } from "react-icons/lu";
 import { Outlet } from "react-router-dom";
-import classes from './Layout.module.css';
+import classes from "./Layout.module.css";
 
 export function Layout() {
   const [opened, { toggle }] = useDisclosure();
