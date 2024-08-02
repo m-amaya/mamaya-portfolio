@@ -7,12 +7,13 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint:eslint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:eslint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
     "lint:prettier": "prettier . --write",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/inter": "5.0.20",
     "@fontsource-variable/pixelify-sans": "5.0.3",
     "@mantine/core": "7.11.2",
     "@mantine/hooks": "7.11.2",
@@ -26,7 +27,6 @@
     "zustand": "4.5.4"
   },
   "devDependencies": {
-    "@fontsource-variable/inter": "5.0.20",
     "@types/node": "22.0.2",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
