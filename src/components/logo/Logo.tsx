@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export function Logo() {
   return (
-    <NavLink to='/' style={{ color: 'inherit', textDecoration: 'none' }}>
+    <NavLink to="/" style={{ color: "inherit", textDecoration: "none" }}>
       <Group>
         <Image src="/programming.png" h={40} />
         <Text

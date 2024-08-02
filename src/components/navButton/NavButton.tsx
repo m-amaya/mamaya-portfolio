@@ -5,7 +5,7 @@ import classes from "./NavButton.module.css";
 
 interface Props {
   children: ReactNode;
-  target?: HTMLAttributeAnchorTarget
+  target?: HTMLAttributeAnchorTarget;
   to: string;
 }
 
@@ -14,5 +14,5 @@ export function NavButton({ children, target, to }: Props) {
     <NavLink className={classes.link} to={to} target={target}>
       <UnstyledButton className={classes.button}>{children}</UnstyledButton>
     </NavLink>
-  )
+  );
 }

@@ -5,7 +5,7 @@ import "@mantine/core/styles.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
-import './main.css';
+import "./main.css";
 import { router } from "./tokens/router.tsx";
 import { resolver, theme } from "./tokens/theme.ts";
 

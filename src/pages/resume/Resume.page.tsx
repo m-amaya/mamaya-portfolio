@@ -7,9 +7,7 @@ export function ResumePage() {
       <Helmet>
         <title>Resume | m.amaya</title>
       </Helmet>
-      <AppShell.Main>
-        Resume Page
-      </AppShell.Main>
+      <AppShell.Main>Resume Page</AppShell.Main>
     </>
-  )
+  );
 }
