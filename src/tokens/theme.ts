@@ -39,7 +39,12 @@ const themeOverride = createTheme({
   focusRing: "auto",
   fontFamily: "'Inter Variable', sans-serif",
   headings: {
-    fontFamily: "'Pixelify Sans Variable', system-ui"
+    fontFamily: "'Pixelify Sans Variable', system-ui",
+    sizes: {
+      h1: {
+        fontSize: "4rem"
+      }
+    }
   },
   primaryColor: "lightBlue"
 });

@@ -31,11 +31,11 @@ export function HomePage() {
               <Highlight>architecting</Highlight>,{" "}
               <Highlight>designing</Highlight>, and{" "}
               <Highlight>building</Highlight> cutting-edge applications. While
-              you're here, feel free to check out my{" "}
+              you&apos;re here, feel free to check out my{" "}
               <Highlight>portfolio</Highlight> to catch a glimpse of my work.
             </Text>
             <div>
-              <NavLink to='/portfolio'>
+              <NavLink to="/portfolio">
                 <Button
                   color="hotPink.2"
                   rightSection={<LuArrowUpRight size={18} />}

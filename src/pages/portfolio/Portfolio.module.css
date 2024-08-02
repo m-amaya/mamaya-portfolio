@@ -1,0 +1,12 @@
+.hero {
+  background-color: light-dark(
+    var(--mantine-color-gray-1),
+    var(--mantine-color-gray-8)
+  );
+  border-bottom-color: light-dark(
+    var(--mantine-color-lightBlue-3),
+    var(--mantine-color-lightBlue-9)
+  );
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
